@@ -1,5 +1,7 @@
 # LFP: Loss Functions for Principled Representations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653791.svg)](https://doi.org/10.5281/zenodo.18653791)
+
 Testing MCR2 (Maximal Coding Rate Reduction) as an auxiliary loss for training small transformer language models.
 
 **Key finding:** MCR2 improves generalization by 2.8% (val_ppl 306.4 vs 315.2), but not for the reasons the theory claims. Neither expansion nor compression alone helps — each one alone makes things worse. It's the tension between the two conflicting objectives that regularizes.
