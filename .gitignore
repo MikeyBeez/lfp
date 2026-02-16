@@ -1,0 +1,28 @@
+# Checkpoints and model weights
+checkpoints/
+runs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Training logs
+*.log
+
+# Generated plots (keep article_draft.md, regenerate plots from metrics)
+*_per_layer.png
+comparison_*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
